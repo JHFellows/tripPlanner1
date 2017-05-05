@@ -1,11 +1,36 @@
 {% extends "layout.html" %}
 
+{% block title %}Your Trip{% endblock %}
+
 {% block content %}
+<div id="app" class="clearfix">
+  <!--<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+    </div>
+  </nav>-->
 
-<h1>Hellooooo Tripplanner</h1>
-{% for hotel in hotels %}
-  <h2>{{hotel.name}}</h2>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="sidebar row">
 
-{% endfor %}
+          <div class="dropdowns center-block col-lg-12">dropdowns</div>
 
+          <div class="col-lg-12">Day X</div>
+
+          <div class="col-lg-12">Buttons</div>
+
+          <div class="col-lg-12">Itinerary</div>
+
+        </div>
+      </div>
+      <div class="col-lg-8">
+
+        <div class="col-lg-12">Map</div>
+
+      </div>
+    </div>
+  </div>
+
+</div>
 {% endblock %}

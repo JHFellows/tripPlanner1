@@ -1,0 +1,28 @@
+$mint: #00E6B8;
+
+.clearfix {
+	&::before, &::after {
+		clear: both;
+		display: block;
+		content: "";
+	}
+}
+
+.navbar {
+  background-color: $mint;
+}
+
+.sidebar {
+  background-color: beige;
+  width: 400px;
+}
+
+.dropdowns {
+  height: 350px;
+  width: 350px;
+  margin: 0 auto;
+  border: black solid 2px;
+  background-color: lightblue;
+}
+
+

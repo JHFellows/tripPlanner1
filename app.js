@@ -22,7 +22,8 @@ app.engine('html', nunjucks.render);
 app.use(router);
 
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static(path.join(__dirname, 'views')));
+app.use('/bootstrap', express.static(path.join(__dirname, 'node_modules/bootstrap/dist')));
+app.use('/jquery', express.static(path.join(__dirname, 'node_modules/jquery/dist')));
 
 // catch 404 (i.e., no route was hit) and forward to error handler
 app.use(function(req, res, next) {

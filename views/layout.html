@@ -1,15 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <title>Tripplanner</title>
-  <!--<link rel='stylesheet' href='stylesheets/style.css' />-->
-  <!--Stylesheets go here!-->
-</head>
-<body>
-  
-  {% block content %}
-  {% endblock %}
+  <title>Trip Planner - {% block title %}{% endblock %}</title>
+  <head>
+    <!-- Stylesheets go here! -->
+    <link rel='stylesheet' href='bootstrap/css/bootstrap.min.css'/>
+    <link rel='stylesheet' href='stylesheets/style.css'/>
+  </head>
+  <body>
 
-  <!--Scripts go here!-->
-</body>
+    {% block content %}
+
+    {% endblock %}
+
+    <!-- Script tags go here! -->
+    <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
 </html>
+
+
