@@ -9,20 +9,37 @@ $mint: #00E6B8;
 }
 
 .navbar {
-  background-color: $mint;
+  // background-color: $mint;
+  margin-bottom: 10px;
 }
 
 .sidebar {
-  background-color: beige;
-  width: 400px;
 }
 
 .dropdowns {
-  height: 350px;
-  width: 350px;
+  height: 250px;
   margin: 0 auto;
   border: black solid 2px;
   background-color: lightblue;
 }
 
+.day-label {
+  height: 75px;
+  margin: 0 auto;
+  border: black solid 2px;
+  background-color: lightblue;
+}
 
+.day-buttons {
+  height: 75px;
+  margin: 0 auto;
+  border: black solid 2px;
+  background-color: lightblue;
+}
+
+.itinerary {
+  height: 250px;
+  margin: 0 auto;
+  border: black solid 2px;
+  background-color: lightblue;
+}

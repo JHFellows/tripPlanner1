@@ -4,15 +4,28 @@
   content: ""; }
 
 .navbar {
-  background-color: #00E6B8; }
-
-.sidebar {
-  background-color: beige;
-  width: 400px; }
+  margin-bottom: 10px; }
 
 .dropdowns {
-  height: 350px;
-  width: 350px;
+  height: 250px;
+  margin: 0 auto;
+  border: black solid 2px;
+  background-color: lightblue; }
+
+.day-label {
+  height: 75px;
+  margin: 0 auto;
+  border: black solid 2px;
+  background-color: lightblue; }
+
+.day-buttons {
+  height: 75px;
+  margin: 0 auto;
+  border: black solid 2px;
+  background-color: lightblue; }
+
+.itinerary {
+  height: 250px;
   margin: 0 auto;
   border: black solid 2px;
   background-color: lightblue; }
